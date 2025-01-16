@@ -1,0 +1,158 @@
+.navbar {
+    height: 100px;
+    background-color: #F8D57E;
+}
+
+.hero-section {
+    height: 570px;
+    background-color: #F8D57E;
+}
+
+
+.features {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 120px 55px;
+    background-color: #F8F9FF;
+    box-sizing: border-box;
+}
+
+.visuals {
+    max-width: 540px;
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+.header {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1 0 auto;
+}
+
+.header-h2 {
+    color: #2D2D2D;
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: -0.76px;
+    align-self: stretch;
+    text-align: left;
+    margin: 0px;
+}
+
+.header-p {
+    color: #2D2D2D;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-self: flex-end;
+    text-align: left;
+    margin: 0px;
+}
+
+/*.card {
+    border-radius: 20px;
+    background-color: #F8F9FF;
+    color: #2D2D2D;
+    font-family: Mulish, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #E5F4F2;
+    background: #FFF;
+}
+
+.card-info p {
+    padding-left: 20px;
+    text-align: left;
+}*/
+
+
+
+/*.icon {
+    display: flex;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: #E5F4F2;
+}
+
+.icon svg {
+    width: 25px;
+    height: 25px;
+}*/
+
+.card-holder {
+    /*margin-top: 50px;*/
+    padding-top: 50px;
+    max-width: 570px;
+    /*max-height: 200px;*/
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.card-info {
+    /*height: 50px;*/
+    min-width: 233px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    flex: 1 0 0;
+
+    border-radius: 20px;
+    border: 1px solid #E5F4F2;
+    background: #FFF;
+}
+
+.card-text {
+    margin-top: 0px;
+    display: flex;
+    text-align: left;
+    min-width: 233px;
+    color: #2D2D2D;
+    font-family: Mulish;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;  
+}
+
+.icon {
+    display: flex;
+    padding: 12.195px;
+    align-items: flex-start;
+    gap: 6.098px;
+
+    border-radius: 12.195px;
+    background: #E5F4F2;
+}
+
+.icon svg {
+    width: 25.61px;
+    height: 25.61px;    
+}
+
+
